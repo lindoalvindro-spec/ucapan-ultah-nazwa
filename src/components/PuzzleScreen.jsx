@@ -88,13 +88,13 @@ export default function PuzzleScreen({ onComplete }) {
             fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--berry)', 
             marginBottom: 6, lineHeight: 1.1
           }}>
-            Puzzle Kenangan Bebee
+            Puzzle Kenangan Nazwa
           </h2>
           <p style={{ 
             fontFamily: 'var(--font-cute)', fontSize: '0.85rem', color: 'var(--pink-deep)', 
             fontWeight: 600, opacity: 0.9
           }}>
-            Susun foto untuk membuka ruang pameran utama ✨
+            Susun foto untuk membuka ruang ucapan ulang tahun ✨
           </p>
         </div>
 
@@ -155,7 +155,7 @@ export default function PuzzleScreen({ onComplete }) {
                   <div style={{
                     width: '300%', height: '300%', position: 'absolute', 
                     top: `${-srcRow * 100}%`, left: `${-srcCol * 100}%`,
-                    backgroundImage: 'url(/gambar%2038.jpeg)', backgroundSize: 'cover',
+                    backgroundImage: 'url(/nazwa%202.jpeg)', backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }} />
                 )}
@@ -185,7 +185,7 @@ export default function PuzzleScreen({ onComplete }) {
                 width: '85%', aspectRatio: '1', borderRadius: 16, overflow: 'hidden',
                 boxShadow: '0 12px 32px rgba(212,69,108,0.25)', marginBottom: 16
               }}>
-                <img src="/gambar 38.jpeg" alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/nazwa 2.jpeg" alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <span style={{ 
                 color: 'var(--pink-deep)', fontSize: '0.75rem', fontWeight: 700,
@@ -206,7 +206,7 @@ export default function PuzzleScreen({ onComplete }) {
               <CheckCircle2 size={18} /> PUZZLE BERHASIL DISUSUN! 🎉
             </div>
             <button className="btn-primary" onClick={onComplete} style={{ width: '100%' }}>
-              Buka Dedikasi Spesial <ArrowRight size={16} />
+              Buka Surat Ulang Tahun <ArrowRight size={16} />
             </button>
           </div>
         ) : (

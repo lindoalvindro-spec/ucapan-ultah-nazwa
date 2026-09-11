@@ -149,7 +149,7 @@ export default function App() {
         {stage === 'qr' && (
           <LoveQRGenerator
             onBack={() => transitionTo(prevStage || 'splash')}
-            defaultUrl="https://bebeebgirlfriendday.netlify.app/"
+            defaultUrl="https://nazwa21stbirthday.netlify.app/"
           />
         )}
       </div>

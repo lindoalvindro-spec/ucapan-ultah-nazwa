@@ -187,7 +187,7 @@ export default function FlowerScreen({ onRestart }) {
                 fontStyle: 'italic',
                 lineHeight: 1.1,
               }}>
-                Flowers for my
+                Flowers for
               </div>
               <h2 style={{
                 fontFamily: 'var(--font-display)',
@@ -198,7 +198,7 @@ export default function FlowerScreen({ onRestart }) {
                 letterSpacing: '-0.5px',
                 textShadow: '0 2px 10px rgba(212, 69, 108, 0.2)',
               }}>
-                Pretty Girl 🌸✨
+                Nazwa 🌸✨
               </h2>
             </div>
 
@@ -215,7 +215,7 @@ export default function FlowerScreen({ onRestart }) {
               textAlign: 'left',
             }}>
               <p style={{ marginBottom: 12, fontWeight: 500 }}>
-                dilgaaa kacihhh bungaa inii bukan hanya kalnaaa harii iniyyy speciaal, tapii kalnaa dedee selalu speciall bagii dilgaa. Setiap kelopaknaaa ingetinnn dilgaaa hal hal kecil yang dilgaa cukaaa darii dedee, yaituw senyumm naa dedee, tawanaa dedee, dan caraa dedee bikinn dilgaa merasaa dicintaiii. No matter how beautiful these flowers are, they still can't compare to you.
+                Buket bunga spesial ini dihadiahkan khusus untuk merayakan hari ulang tahun Nazwa yang ke-21. Setiap kelopaknya merekah indah membawa harapan agar senyuman, keceriaan, dan kebahagiaan selalu menyertai setiap langkah Nazwa. No matter how beautiful these flowers are, they still can't compare to your bright smile!
               </p>
               
               <div style={{
@@ -227,7 +227,7 @@ export default function FlowerScreen({ onRestart }) {
                 color: 'var(--pink-deep)',
                 lineHeight: 1.35,
               }}>
-                Telimakacihh cudaa jadii perempuan yang selaluuu berhasill bikinnn hatii dilgaa pulang. ♡
+                Selamat Ulang Tahun ke-21, Nazwa! Tetaplah bersinar dan bahagia selalu. ♡
               </div>
             </div>
 
@@ -245,7 +245,7 @@ export default function FlowerScreen({ onRestart }) {
             fontSize: '0.9rem',
           }}
         >
-          Ulangi Kejutan Pameran 🔄
+          Ulangi Kejutan Ulang Tahun 🔄
         </button>
       </div>
 

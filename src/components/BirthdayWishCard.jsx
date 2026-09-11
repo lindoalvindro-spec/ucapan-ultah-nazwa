@@ -113,9 +113,9 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 boxShadow: '0 12px 32px rgba(200,59,100,0.25)',
                 position: 'relative', zIndex: 1
               }}>
-                <img src="/gambar 36.jpeg" alt="Happy Girlfriend Day" style={{
+                <img src="/nazwa 5.jpeg" alt="Happy 21st Birthday Nazwa" style={{
                   width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center'
-                }} onError={(e) => { e.target.src = '/gambar 36.jpeg'; }} />
+                }} onError={(e) => { e.target.src = '/nazwa 5.jpeg'; }} />
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-cute)', fontSize: '0.8rem', color: 'var(--rose-gold)',
               letterSpacing: 2.5, textTransform: 'uppercase', marginBottom: 4, fontWeight: 700
             }}>
-              Official Girlfriend Day Card
+              Official 21st Birthday Card
             </h3>
             
             <div className="reveal-el" style={{ textAlign: 'center', marginBottom: 18 }}>
@@ -132,7 +132,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: 'var(--pink-deep)',
                 lineHeight: 1, margin: 0
               }}>
-                Bebee 💖
+                Nazwa 💖
               </h1>
             </div>
 
@@ -146,16 +146,16 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-body)', fontSize: '0.86rem', color: 'var(--berry-light)',
               lineHeight: 1.7, marginBottom: 24, fontStyle: 'italic', padding: '0 6px'
             }}>
-              "Happy Girlfriend Day! Thank you for bringing so much warmth, laughter, and happiness every single day. Always stay safe, stay healthy, stay bright, and keep wearing that beautiful smile!"
+              "Selamat Ulang Tahun yang ke-21, Nazwa! (12 September 2005). Semoga di usia 21 tahun ini kamu semakin bahagia, selalu diberi kesehatan, semakin dekat dengan kesuksesan, dan senyuman indahmu selalu merekah setiap hari. Always take care, stay safe, stay happy, stay healthy!"
             </p>
 
             {/* Sign Off */}
             <div className="reveal-el" style={{ marginBottom: 10 }}>
               <p style={{ fontSize: '0.72rem', color: 'var(--rose-gold)', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 1.2, fontWeight: 700 }}>
-                With Endless Love & Appreciation
+                With Warmest Wishes & Sincere Love
               </p>
               <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.7rem', color: 'var(--pink-deep)' }}>
-                Happy Girlfriend Day, Bebee! 🌸💖
+                Happy 21st Birthday, Nazwa! 🌸💖
               </p>
             </div>
 
@@ -182,7 +182,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
             padding: '10px 20px', background: 'rgba(255,255,255,0.7)',
             borderRadius: 20, color: 'var(--berry)'
           }}>
-            <RotateCcw size={14} /> Ulangi Kejutan Pameran
+            <RotateCcw size={14} /> Ulangi Kejutan Ulang Tahun
           </button>
         </div>
       </div>

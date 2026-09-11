@@ -5,7 +5,7 @@ import gsap from 'gsap';
 export default function PinScreen({ onUnlock }) {
   const [pin, setPin] = useState('');
   const [error, setError] = useState(false);
-  const correctPin = '030525';
+  const correctPins = ['120905', '120926'];
   const cardRef = useRef(null);
   const dotsRef = useRef([]);
   const lockRef = useRef(null);
@@ -42,7 +42,7 @@ export default function PinScreen({ onUnlock }) {
   const clear = () => { setPin(''); setError(false); };
 
   const verify = (p) => {
-    if (p === correctPin) {
+    if (correctPins.includes(p)) {
       gsap.to(lockRef.current, { rotation: 20, duration: 0.2, yoyo: true, repeat: 1 });
       gsap.to(cardRef.current, {
         scale: 1.06, opacity: 0, y: -30,
@@ -84,13 +84,13 @@ export default function PinScreen({ onUnlock }) {
           fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--berry)',
           textAlign: 'center', lineHeight: 1.2, marginBottom: 4,
         }}>
-          VIP Pass Verification ✨
+          Birthday Pass Verification ✨
         </h1>
         <p style={{
           fontFamily: 'var(--font-cute)', fontSize: '0.82rem', color: 'var(--pink-deep)',
           textAlign: 'center', fontWeight: 600, marginBottom: 22, opacity: 0.9,
         }}>
-          Masukkan PIN rahasia Bebee 💕
+          Masukkan tanggal lahir Nazwa (120905) 💕
         </p>
 
         {/* PIN Dots */}
@@ -122,7 +122,7 @@ export default function PinScreen({ onUnlock }) {
             marginBottom: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
             border: '1px solid rgba(212,69,108,0.25)',
           }}>
-            <AlertCircle size={14} /> PIN salah, coba lagi ya!
+            <AlertCircle size={14} /> PIN salah, coba tanggal lahir Nazwa (120905)!
           </div>
         )}
 

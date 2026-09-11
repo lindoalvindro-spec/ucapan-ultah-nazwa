@@ -115,16 +115,16 @@ export default function SplashScreen({ onStart }) {
       display: 'flex', flexDirection: 'column', alignItems: 'center',
       justifyContent: 'center', overflow: 'hidden',
     }}>
-      {/* Background Hero Photo (gambar 32.jpeg) */}
+      {/* Background Hero Photo (nazwa 1.jpeg) */}
       <img
         ref={photoRef}
-        src="/gambar 32.jpeg"
-        alt="Happy Girlfriend Day"
+        src="/nazwa 1.jpeg"
+        alt="Happy 21st Birthday Nazwa"
         style={{
           position: 'absolute', inset: 0, width: '100%', height: '100%',
           objectFit: 'cover', opacity: 0,
         }}
-        onError={(e) => { e.target.src = '/gambar 32.jpeg'; }}
+        onError={(e) => { e.target.src = '/nazwa 1.jpeg'; }}
       />
 
       {/* Luxury Dark Gradient Overlay */}
@@ -176,7 +176,7 @@ export default function SplashScreen({ onStart }) {
             fontFamily: 'var(--font-cute)', fontSize: '0.72rem', fontWeight: 700,
             color: 'var(--gold-light)', letterSpacing: '1.5px', textTransform: 'uppercase',
           }}>
-            Happy Girlfriend Day 💖
+            Happy 21st Birthday 💖
           </span>
         </div>
 
@@ -186,16 +186,16 @@ export default function SplashScreen({ onStart }) {
           color: 'rgba(255,244,247,0.85)', letterSpacing: '2px', textTransform: 'uppercase',
           marginBottom: 8, opacity: 0,
         }}>
-          Special Exhibition Dedicated To
+          Special 21st Birthday Exhibition Dedicated To
         </p>
 
-        {/* Title: My Beloved Girlfriend */}
+        {/* Title: Nazwa */}
         <h1 ref={line2Ref} style={{
           fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: '#fff',
           lineHeight: 1.1, marginBottom: 12, opacity: 0,
           textShadow: '0 4px 25px rgba(212, 69, 108, 0.6), 0 0 40px rgba(212, 163, 89, 0.4)',
         }}>
-          Bebee 👑
+          Nazwa 👑
         </h1>
 
         <p ref={line3Ref} style={{
@@ -203,7 +203,7 @@ export default function SplashScreen({ onStart }) {
           color: 'var(--gold-light)', fontWeight: 600, marginBottom: 32, opacity: 0,
           letterSpacing: '0.5px'
         }}>
-          The Museum of Love & Beautiful Memories ✨
+          The Museum of 21 Beautiful Years ✨ (12 Sept 2005)
         </p>
 
         {/* Action Button */}

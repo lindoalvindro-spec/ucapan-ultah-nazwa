@@ -48,9 +48,9 @@ const FRAME_THEMES = [
 
 const CENTER_ICONS = ['💕', '💖', '🌹', '🎂', '💌', '✨', '👑', '🕊️'];
 
-export default function LoveQRGenerator({ onBack, defaultUrl = 'https://bebeebgirlfriendday.netlify.app/' }) {
+export default function LoveQRGenerator({ onBack, defaultUrl = 'https://nazwa21stbirthday.netlify.app/' }) {
   const [url, setUrl] = useState(defaultUrl);
-  const [customText, setCustomText] = useState('Scan Me 💕');
+  const [customText, setCustomText] = useState('Happy Birthday Nazwa 💕');
   const [selectedTheme, setSelectedTheme] = useState(FRAME_THEMES[0]);
   const [selectedIcon, setSelectedIcon] = useState('💕');
   const [toastMessage, setToastMessage] = useState('');
@@ -152,7 +152,7 @@ export default function LoveQRGenerator({ onBack, defaultUrl = 'https://bebeebgi
     // 4. Generate QR Code Matrix data using qrcode library
     let qrData;
     try {
-      qrData = QRCode.create(url || 'https://bebeebirthday.netlify.app/', {
+      qrData = QRCode.create(url || 'https://nazwa21stbirthday.netlify.app/', {
         errorCorrectionLevel: 'H',
       });
     } catch (err) {
@@ -391,7 +391,7 @@ export default function LoveQRGenerator({ onBack, defaultUrl = 'https://bebeebgi
               className="control-input"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
-              placeholder="https://bebeebirthday.netlify.app/"
+              placeholder="https://nazwa21stbirthday.netlify.app/"
             />
           </div>
 
